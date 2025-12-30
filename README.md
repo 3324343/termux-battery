@@ -9,5 +9,5 @@ Step 2
 ```bash
 pkg update -y
 pkg upgrade -y
-pkg install git nodejs && npm update && npm install axios && git clone https://github.com/3324343/termux-battery/ && cd termux-battery
+pkg install git nodejs && npm update && npm install axios && npm install express && git clone https://github.com/3324343/termux-battery/ && cd termux-battery
 ```
