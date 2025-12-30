@@ -4,9 +4,9 @@ const axios = require("axios");
 const path = require("path");
 
 const app = express();
-const PORT = 3324343;
+const PORT = 33243;
 
-const WEBHOOK_URL = "PASTE_YOUR_WEBHOOK_TOKEN_HERE";
+// const WEBHOOK_URL = "PASTE_YOUR_WEBHOOK_TOKEN_HERE";
 
 let lastBattery = null;
 let latestBattery = null;
