@@ -4,7 +4,7 @@ const axios = require("axios");
 const path = require("path");
 
 const app = express();
-const PORT = 3000;
+const PORT = 3324343;
 
 const WEBHOOK_URL = "PASTE_YOUR_WEBHOOK_TOKEN_HERE";
 
@@ -77,7 +77,7 @@ app.get("/api/status", (_, res) => {
 app.use("/", express.static(path.join(__dirname, "web")));
 
 app.listen(PORT, () => {
-  console.log(`Web GUI running at http://localhost:${PORT}`);
+  console.log(`[+] Web GUI running at http://localhost:${PORT}`);
 });
 
 monitor();
