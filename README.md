@@ -1,4 +1,4 @@
-## Termux Battery
+## 💤 Termux Battery
 A simple script to monitor your phone battery with termux
 
 
