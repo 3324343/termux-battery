@@ -1,3 +1,9 @@
+## Termux Battery
+A simple script to monitor your phone battery with termux
+
+
+
+
 ## 📚 Installation
 
   Step 1
